@@ -1,0 +1,9 @@
+.vscode
+build
+tests
+doc
+*.log
+*.tmp
+.tmp
+.test
+
