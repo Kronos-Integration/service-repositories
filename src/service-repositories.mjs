@@ -7,11 +7,6 @@ export class ServiceRepositories extends Service {
     return mergeAttributes(
       super.configurationAttributes,
       createAttributes({
-        git: {
-          clone: {
-            depth: 5
-          }
-        },
         providers: {}
       })
     );
@@ -25,7 +20,7 @@ export class ServiceRepositories extends Service {
   }
 
   async _start() {
-    await this._start();
+    await super._start();
 
     const providers = await Promise.all(
       this.providers.map(async provider => {
@@ -34,10 +29,7 @@ export class ServiceRepositories extends Service {
         delete provider.type;
 
         return m.default.initialize(
-          {
-            ...provider,
-            logger
-          },
+          provider,
           process.env
         );
       })

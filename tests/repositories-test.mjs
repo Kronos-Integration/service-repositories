@@ -23,8 +23,9 @@ test("repositories", async t => {
   });
 
   await sp.start();
+  await(sp.services.repositories.start());
 
-  t.deepEqual(sp.services.repositories.provider.providers, [
+  t.deepEqual(sp.services.repositories.provider.providers.map(p => p.constructor), [
     GithubProvider,
     GiteaProvider
   ]);
