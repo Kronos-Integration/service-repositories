@@ -29,14 +29,14 @@
   },
   "dependencies": {
     "@kronos-integration/service": "^8.5.12",
-    "aggregation-repository-provider": "^2.7.12"
+    "aggregation-repository-provider": "^2.8.0"
   },
   "devDependencies": {
     "ava": "^3.8.2",
     "c8": "^7.1.2",
     "documentation": "^13.0.1",
-    "gitea-repository-provider": "^1.10.42",
-    "github-repository-provider": "^7.9.35",
+    "gitea-repository-provider": "^1.10.43",
+    "github-repository-provider": "^7.9.37",
     "ldif": "^0.5.1",
     "semantic-release": "^17.0.8"
   },
