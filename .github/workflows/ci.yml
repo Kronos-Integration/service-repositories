@@ -32,6 +32,7 @@ jobs:
         env:
           GITEA_TOKEN: '${{ secrets.GITEA_TOKEN }}'
           GITEA_API: '${{ secrets.GITEA_API }}'
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
       - name: Release
         uses: actions/setup-node@v1
       - run: npx semantic-release
