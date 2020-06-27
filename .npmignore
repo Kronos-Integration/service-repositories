@@ -6,4 +6,5 @@ doc
 *.tmp
 .tmp
 .test
+.github
 
