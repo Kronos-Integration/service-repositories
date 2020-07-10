@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@kronos-integration/service": "^8.5.14",
-    "aggregation-repository-provider": "^2.8.7"
+    "aggregation-repository-provider": "^2.8.8"
   },
   "devDependencies": {
     "ava": "^3.10.1",
@@ -41,7 +41,7 @@
     "semantic-release": "^17.1.1"
   },
   "engines": {
-    "node": ">=14.4.0"
+    "node": ">=14.5.0"
   },
   "repository": {
     "type": "git",
