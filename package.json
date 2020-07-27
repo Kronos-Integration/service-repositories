@@ -32,7 +32,7 @@
     "aggregation-repository-provider": "^2.8.8"
   },
   "devDependencies": {
-    "ava": "^3.10.1",
+    "ava": "^3.11.0",
     "c8": "^7.2.1",
     "documentation": "^13.0.2",
     "gitea-repository-provider": "^1.12.3",
