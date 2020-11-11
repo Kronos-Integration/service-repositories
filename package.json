@@ -38,7 +38,7 @@
     "ava": "^3.13.0",
     "c8": "^7.3.5",
     "documentation": "github:arlac77/documentation",
-    "gitea-repository-provider": "^1.14.27",
+    "gitea-repository-provider": "^1.14.29",
     "github-repository-provider": "^7.18.15",
     "semantic-release": "^17.2.2"
   },
