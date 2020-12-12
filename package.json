@@ -5,8 +5,6 @@
     "access": "public"
   },
   "sideEffects": false,
-  "type": "module",
-  "main": "./src/service-repositories.mjs",
   "exports": {
     ".": "./src/service-repositories.mjs"
   },
