@@ -2,9 +2,6 @@ import test from "ava";
 import { StandaloneServiceProvider } from "@kronos-integration/service";
 import ServiceRepositories from "@kronos-integration/service-repositories";
 
-import GithubProvider from "github-repository-provider";
-import GiteaProvider from "gitea-repository-provider";
-
 test("repositories", async t => {
   const sp = new StandaloneServiceProvider();
 
@@ -25,8 +22,8 @@ test("repositories", async t => {
   await sp.start();
   await(sp.services.repositories.start());
 
-  t.deepEqual(sp.services.repositories.provider.providers.map(p => p.constructor), [
-    GithubProvider,
-    GiteaProvider
+  t.deepEqual(sp.services.repositories.provider.providers.map(p => p.name), [
+    "github",
+    "gitea"
   ]);
 });
