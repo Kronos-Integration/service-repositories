@@ -8,6 +8,7 @@ test("repositories", async t => {
   await sp.declareServices({
     repositories: {
       type: ServiceRepositories,
+      loglevel: "trace",
       providers: [
         {
           type: "github-repository-provider"
