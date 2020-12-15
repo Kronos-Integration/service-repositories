@@ -32,13 +32,10 @@ export class ServiceRepositories extends Service {
         this.trace(`import ${provider.type} -> ${m.default.name}`);
         delete provider.type;
 
-        const instance = m.default.initialize(
+        return m.default.initialize(
           provider,
           process.env
         );
-
-        this.trace(`initialized ${JSON.stringify(provider)} ${JSON.stringify(process.env)} as ${instance ? instance.name : 'undefined'}`);
-        return instance;
       })
     );
     

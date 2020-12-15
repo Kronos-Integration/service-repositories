@@ -23,8 +23,17 @@ test("repositories", async t => {
   await sp.start();
   await sp.services.repositories.start();
 
+  const expectedProviders = [];
+
+  if (process.env.GH_TOKEN || process.env.GITHUB_TOKEN) {
+    expectedProviders.push("github");
+  }
+  if (process.env.GITEA_TOKEN && process.env.GITEA_API) {
+    expectedProviders.push("gitea");
+  }
+
   t.deepEqual(
     sp.services.repositories.provider.providers.map(p => p.name),
-    ["github", "gitea"]
+    expectedProviders
   );
 });
