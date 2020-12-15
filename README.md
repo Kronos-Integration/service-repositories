@@ -15,8 +15,15 @@
 
 ### Table of Contents
 
--   [name](#name)
+-   [ServiceRepositories](#servicerepositories)
+    -   [name](#name)
 
-## name
+## ServiceRepositories
+
+**Extends Service**
+
+Provide repositories.
+
+### name
 
 Returns **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** 'repositories'
