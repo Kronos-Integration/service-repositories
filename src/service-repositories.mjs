@@ -37,8 +37,7 @@ export class ServiceRepositories extends Service {
           process.env
         );
 
-
-        this.trace(`initialized as ${instance.name}`);
+        this.trace(`initialized ${JSON.stringify(provider)} ${JSON.stringify(process.env)} as ${instance ? instance.name : 'undefined'}`);
         return instance;
       })
     );
