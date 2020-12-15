@@ -38,7 +38,7 @@ export class ServiceRepositories extends Service {
         );
 
 
-        this.trace(`initialized as  ${instance.name}`);
+        this.trace(`initialized as ${instance.name}`);
         return instance;
       })
     );
