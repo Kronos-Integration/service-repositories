@@ -10,7 +10,10 @@ export class ServiceRepositories extends Service {
     return mergeAttributes(
       super.configurationAttributes,
       createAttributes({
-        providers: {}
+        providers: {
+          description: "list of providers to be accessed",
+          needsRestart: true
+        }
       })
     );
   }
@@ -27,18 +30,21 @@ export class ServiceRepositories extends Service {
 
     const providers = await Promise.all(
       this.providers.map(async provider => {
-        const m = await import(provider.type);
+        const stringOnly = typeof provider === "string";
+        const type = stringOnly ? provider : provider.type;
+        const options = stringOnly ? {} : provider;
+         
+        const m = await import(type);
 
-        this.trace(`import ${provider.type} -> ${m.default.name}`);
-        delete provider.type;
+        this.trace(`import ${type} -> ${m.default.name}`);
 
         return m.default.initialize(
-          provider,
+          options,
           process.env
         );
       })
     );
-    
+
     this.provider = new AggregationProvider(providers);
   }
 }
