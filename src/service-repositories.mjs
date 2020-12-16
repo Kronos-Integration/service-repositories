@@ -29,19 +29,15 @@ export class ServiceRepositories extends Service {
     await super._start();
 
     const providers = await Promise.all(
-      this.providers.map(async provider => {
-        const stringOnly = typeof provider === "string";
-        const type = stringOnly ? provider : provider.type;
-        const options = stringOnly ? {} : provider;
-         
+      this.providers.map(async def => {
+        const [type, options] =
+          typeof def === "string" ? [def, {}] : [def.type, def];
+
         const m = await import(type);
 
         this.trace(`import ${type} -> ${m.default.name}`);
 
-        return m.default.initialize(
-          options,
-          process.env
-        );
+        return m.default.initialize(options, process.env);
       })
     );
 
