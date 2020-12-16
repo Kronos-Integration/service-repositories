@@ -16,8 +16,10 @@ async function repositoriesTest(t, definition, expected) {
   await sp.start();
   await sp.services.repositories.start();
 
+  const provider = await sp.services.repositories.provider();
+
   t.deepEqual(
-    sp.services.repositories.provider.providers.map(p => p.name),
+    provider.providers.map(p => p.name),
     expected
   );
 

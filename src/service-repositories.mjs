@@ -41,7 +41,13 @@ export class ServiceRepositories extends Service {
       })
     );
 
-    this.provider = new AggregationProvider(providers);
+    this._provider = new AggregationProvider(providers);
+  }
+
+  async provider()
+  {
+    await this.start();
+    return this._provider;
   }
 }
 
