@@ -33,7 +33,7 @@
     "model-attributes": "^4.1.8"
   },
   "devDependencies": {
-    "ava": "^3.14.0",
+    "ava": "^3.15.0",
     "c8": "^7.4.0",
     "documentation": "github:arlac77/documentation",
     "gitea-repository-provider": "^1.15.6",
