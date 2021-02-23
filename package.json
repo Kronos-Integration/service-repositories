@@ -37,7 +37,7 @@
     "c8": "^7.6.0",
     "documentation": "github:arlac77/documentation",
     "gitea-repository-provider": "^1.15.11",
-    "github-repository-provider": "^7.21.14",
+    "github-repository-provider": "^7.21.15",
     "semantic-release": "^17.3.9"
   },
   "engines": {
