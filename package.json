@@ -29,15 +29,15 @@
   },
   "dependencies": {
     "@kronos-integration/service": "^10.4.4",
-    "aggregation-repository-provider": "^3.2.23",
+    "aggregation-repository-provider": "^3.2.24",
     "model-attributes": "^4.1.12"
   },
   "devDependencies": {
     "ava": "^3.15.0",
     "c8": "^7.7.3",
     "documentation": "^13.2.5",
-    "gitea-repository-provider": "^1.16.11",
-    "github-repository-provider": "^7.22.13",
+    "gitea-repository-provider": "^1.16.12",
+    "github-repository-provider": "^7.22.14",
     "semantic-release": "^17.4.4"
   },
   "engines": {
