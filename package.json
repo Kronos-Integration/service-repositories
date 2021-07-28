@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "ava": "^3.15.0",
-    "c8": "^7.7.3",
+    "c8": "^7.8.0",
     "documentation": "^13.2.5",
     "gitea-repository-provider": "^1.16.13",
     "github-repository-provider": "^7.22.15",
