@@ -36,7 +36,7 @@
     "ava": "^4.0.1",
     "c8": "^7.11.0",
     "documentation": "^13.2.5",
-    "gitea-repository-provider": "^1.16.58",
+    "gitea-repository-provider": "^1.16.59",
     "github-repository-provider": "^7.25.16",
     "semantic-release": "^19.0.2"
   },
