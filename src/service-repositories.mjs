@@ -25,6 +25,8 @@ export class ServiceRepositories extends Service {
     return "repositories";
   }
 
+  #provider;
+
   async _start() {
     await super._start();
 
@@ -41,13 +43,13 @@ export class ServiceRepositories extends Service {
       })
     );
 
-    this._provider = new AggregationProvider(providers);
+    this.#provider = new AggregationProvider(providers);
   }
 
   async provider()
   {
     await this.start();
-    return this._provider;
+    return this.#provider;
   }
 }
 
