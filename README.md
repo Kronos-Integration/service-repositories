@@ -2,12 +2,12 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![minified size](https://badgen.net/bundlephobia/min/@kronos-integration/service-repositories)](https://bundlephobia.com/result?p=@kronos-integration/service-repositories)
 [![downloads](http://img.shields.io/npm/dm/@kronos-integration/service-repositories.svg?style=flat-square)](https://npmjs.org/package/@kronos-integration/service-repositories)
-[![GitHub Issues](https://img.shields.io/github/issues/service-repositories/service-repositories.svg?style=flat-square)](https://github.com/service-repositories/service-repositories/issues)
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fservice-repositories%2Fservice-repositories%2Fbadge\&style=flat)](https://actions-badge.atrox.dev/service-repositories/service-repositories/goto)
+[![GitHub Issues](https://img.shields.io/github/issues/Kronos-Integration/service-repositories.svg?style=flat-square)](https://github.com/Kronos-Integration/service-repositories/issues)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FKronos-Integration%2Fservice-repositories%2Fbadge\&style=flat)](https://actions-badge.atrox.dev/Kronos-Integration/service-repositories/goto)
 [![Styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Known Vulnerabilities](https://snyk.io/test/github/service-repositories/service-repositories/badge.svg)](https://snyk.io/test/github/service-repositories/service-repositories)
-[![Coverage Status](https://coveralls.io/repos/service-repositories/service-repositories/badge.svg)](https://coveralls.io/github/service-repositories/service-repositories)
+[![Known Vulnerabilities](https://snyk.io/test/github/Kronos-Integration/service-repositories/badge.svg)](https://snyk.io/test/github/Kronos-Integration/service-repositories)
+[![Coverage Status](https://coveralls.io/repos/Kronos-Integration/service-repositories/badge.svg)](https://coveralls.io/github/Kronos-Integration/service-repositories)
 
 # API
 
