@@ -1,6 +1,6 @@
 [![npm](https://img.shields.io/npm/v/@kronos-integration/service-repositories.svg)](https://www.npmjs.com/package/@kronos-integration/service-repositories)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-[![minified size](https://badgen.net/bundlephobia/min/@kronos-integration/service-repositories)](https://bundlephobia.com/result?p=@kronos-integration/service-repositories)
+[![Open Bundle](https://bundlejs.com/badge-light.svg)](https://bundlejs.com/?q=@kronos-integration/service-repositories)
 [![downloads](http://img.shields.io/npm/dm/@kronos-integration/service-repositories.svg?style=flat-square)](https://npmjs.org/package/@kronos-integration/service-repositories)
 [![GitHub Issues](https://img.shields.io/github/issues/Kronos-Integration/service-repositories.svg?style=flat-square)](https://github.com/Kronos-Integration/service-repositories/issues)
 [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FKronos-Integration%2Fservice-repositories%2Fbadge\&style=flat)](https://actions-badge.atrox.dev/Kronos-Integration/service-repositories/goto)
