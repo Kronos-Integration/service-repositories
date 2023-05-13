@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@kronos-integration/service": "^10.4.45",
-    "aggregation-repository-provider": "^5.3.25",
+    "aggregation-repository-provider": "^5.3.26",
     "model-attributes": "^4.2.2"
   },
   "devDependencies": {
