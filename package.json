@@ -33,7 +33,7 @@
     "model-attributes": "^4.2.2"
   },
   "devDependencies": {
-    "ava": "^5.3.0",
+    "ava": "^5.3.1",
     "c8": "^8.0.0",
     "documentation": "^14.0.2",
     "gitea-repository-provider": "^3.1.7",
