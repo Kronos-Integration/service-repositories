@@ -36,7 +36,7 @@
     "c8": "^8.0.1",
     "documentation": "^14.0.2",
     "gitea-repository-provider": "^4.0.3",
-    "github-repository-provider": "^8.0.29",
+    "github-repository-provider": "^8.0.30",
     "semantic-release": "^22.0.12"
   },
   "engines": {
