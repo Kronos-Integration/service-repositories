@@ -28,7 +28,7 @@
     "lint:docs": "documentation lint ./src/**/*.mjs"
   },
   "dependencies": {
-    "@kronos-integration/service": "^11.2.13",
+    "@kronos-integration/service": "^11.2.15",
     "aggregation-repository-provider": "^7.0.29",
     "model-attributes": "^4.3.0"
   },
