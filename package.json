@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@kronos-integration/service": "^11.2.16",
-    "aggregation-repository-provider": "^7.0.30",
+    "aggregation-repository-provider": "^7.0.31",
     "model-attributes": "^4.3.0"
   },
   "devDependencies": {
@@ -37,7 +37,7 @@
     "c8": "^10.1.2",
     "documentation": "^14.0.3",
     "gitea-repository-provider": "^4.2.19",
-    "github-repository-provider": "^9.2.21",
+    "github-repository-provider": "^9.2.22",
     "semantic-release": "^24.1.2"
   },
   "engines": {
