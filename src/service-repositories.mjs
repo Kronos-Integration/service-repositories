@@ -1,15 +1,15 @@
 import AggregationProvider from "aggregation-repository-provider";
 import { Service } from "@kronos-integration/service";
-import { mergeAttributes, createAttributes } from "model-attributes";
+import { prepareAttributesDefinitions, mergeAttributeDefinitions } from "pacc";
 
 /**
  * Provide repositories.
  */
 export class ServiceRepositories extends Service {
   static get configurationAttributes() {
-    return mergeAttributes(
+    return mergeAttributeDefinitions(
       super.configurationAttributes,
-      createAttributes({
+      prepareAttributesDefinitions({
         providers: {
           description: "list of providers to be accessed",
           needsRestart: true
