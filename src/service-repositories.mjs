@@ -1,22 +1,21 @@
 import AggregationProvider from "aggregation-repository-provider";
 import { Service } from "@kronos-integration/service";
-import { prepareAttributesDefinitions, mergeAttributeDefinitions } from "pacc";
+import { prepareAttributesDefinitions, mergeAttributeDefinitions, default_attribute } from "pacc";
 
 /**
  * Provide repositories.
  */
 export class ServiceRepositories extends Service {
-  static get configurationAttributes() {
-    return mergeAttributeDefinitions(
-      super.configurationAttributes,
-      prepareAttributesDefinitions({
-        providers: {
-          description: "list of providers to be accessed",
-          needsRestart: true
-        }
-      })
-    );
-  }
+  static attributes = mergeAttributeDefinitions(
+    prepareAttributesDefinitions({
+      providers: {
+        ...default_attribute,
+        description: "list of providers to be accessed",
+        needsRestart: true
+      }
+    }),
+    Service.attributes
+  );
 
   /**
    * @return {string} 'repositories'
@@ -46,8 +45,7 @@ export class ServiceRepositories extends Service {
     this.#provider = new AggregationProvider(providers);
   }
 
-  async provider()
-  {
+  async provider() {
     await this.start();
     return this.#provider;
   }
