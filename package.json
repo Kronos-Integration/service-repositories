@@ -30,7 +30,7 @@
   "dependencies": {
     "@kronos-integration/service": "^13.2.14",
     "aggregation-repository-provider": "^7.0.39",
-    "pacc": "^4.12.0"
+    "pacc": "^4.12.2"
   },
   "devDependencies": {
     "ava": "^6.4.1",
