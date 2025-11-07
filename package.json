@@ -38,7 +38,7 @@
     "documentation": "^14.0.3",
     "gitea-repository-provider": "^4.4.7",
     "github-repository-provider": "^9.3.9",
-    "semantic-release": "^25.0.1"
+    "semantic-release": "^25.0.2"
   },
   "engines": {
     "node": ">=22.17.1"
