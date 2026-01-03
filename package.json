@@ -31,13 +31,13 @@
   "dependencies": {
     "@kronos-integration/service": "^15.4.1",
     "aggregation-repository-provider": "^7.0.52",
-    "pacc": "^6.7.2"
+    "pacc": "^6.8.0"
   },
   "devDependencies": {
     "ava": "^6.4.1",
     "c8": "^10.1.3",
     "documentation": "^14.0.3",
-    "gitea-repository-provider": "^5.0.5",
+    "gitea-repository-provider": "^5.0.6",
     "github-repository-provider": "^10.0.10",
     "semantic-release": "^25.0.2"
   },
