@@ -34,7 +34,7 @@
     "pacc": "^9.2.7"
   },
   "devDependencies": {
-    "ava": "^8.0.0",
+    "ava": "^8.0.1",
     "c8": "^11.0.0",
     "documentation": "^14.0.3",
     "gitea-repository-provider": "^5.0.8",
