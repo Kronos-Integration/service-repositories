@@ -29,7 +29,7 @@
     "lint:docs": "documentation lint ./src**/*.mjs"
   },
   "dependencies": {
-    "@kronos-integration/service": "^15.6.5",
+    "@kronos-integration/service": "^15.6.6",
     "aggregation-repository-provider": "^7.0.52",
     "pacc": "^9.3.3"
   },
@@ -38,7 +38,7 @@
     "c8": "^11.0.0",
     "documentation": "^14.0.3",
     "gitea-repository-provider": "^5.0.10",
-    "github-repository-provider": "^10.0.35",
+    "github-repository-provider": "^10.0.37",
     "semantic-release": "^25.0.5"
   },
   "overrides": {
