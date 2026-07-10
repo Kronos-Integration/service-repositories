@@ -39,7 +39,7 @@
     "documentation": "^14.0.3",
     "gitea-repository-provider": "^5.0.14",
     "github-repository-provider": "^10.0.46",
-    "semantic-release": "^25.0.5"
+    "semantic-release": "^25.0.6"
   },
   "overrides": {
     "c8": {
